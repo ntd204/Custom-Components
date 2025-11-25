@@ -4,18 +4,6 @@ import {
   AccordionItem,
   AccordionTrigger
 } from './components/Accordion/Accordion'
-import {
-  AlertDialog,
-  AlertDialogAction,
-  AlertDialogCancel,
-  AlertDialogContent,
-  AlertDialogDescription,
-  AlertDialogFooter,
-  AlertDialogHeader,
-  AlertDialogTitle,
-  AlertDialogTrigger
-} from './components/AlertDialog/AlertDialog.tsx'
-
 import Breadcrumb from './components/Breadcrumb/Breadcrumb'
 import ButtonGroup from './components/ButtonGroup/ButtonGroup'
 import Card from './components/Card/Card'
@@ -58,25 +46,6 @@ function App() {
           </AccordionContent>
         </AccordionItem>
       </Accordion>
-      <AlertDialog>
-        <AlertDialogTrigger>
-          <button className="mt-10 border bg-gray-100 hover:bg-gray-200 font-semibold px-4 py-2 rounded-md">
-            Show Dialog
-          </button>
-        </AlertDialogTrigger>
-        <AlertDialogContent>
-          <AlertDialogHeader>
-            <AlertDialogTitle>Are you absolutely sure?</AlertDialogTitle>
-            <AlertDialogDescription>
-              This action cannot be undone.
-            </AlertDialogDescription>
-          </AlertDialogHeader>
-          <AlertDialogFooter>
-            <AlertDialogCancel>Cancel</AlertDialogCancel>
-            <AlertDialogAction>Continue</AlertDialogAction>
-          </AlertDialogFooter>
-        </AlertDialogContent>
-      </AlertDialog>
       <Breadcrumb />
       <ButtonGroup />
       <Card />

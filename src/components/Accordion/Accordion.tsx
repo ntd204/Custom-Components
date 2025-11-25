@@ -94,7 +94,7 @@ export const AccordionTrigger = ({
 
       <MdNavigateNext
         className={`transition-transform duration-300 ease-in-out cursor-pointer ${
-          isOpen ? '-rotate-90' : 'rotate-90'
+          isOpen ? 'rotate-270' : 'rotate-90'
         }`}
       />
     </button>
