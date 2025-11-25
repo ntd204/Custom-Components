@@ -4,7 +4,6 @@ import {
   AccordionItem,
   AccordionTrigger
 } from './components/Accordion/Accordion'
-import AlertDialog from './components/AlertDialog/AlertDialog'
 import Breadcrumb from './components/Breadcrumb/Breadcrumb'
 import ButtonGroup from './components/ButtonGroup/ButtonGroup'
 import Card from './components/Card/Card'
@@ -47,7 +46,6 @@ function App() {
           </AccordionContent>
         </AccordionItem>
       </Accordion>
-      <AlertDialog />
       <Breadcrumb />
       <ButtonGroup />
       <Card />
